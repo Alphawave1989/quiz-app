@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
+@import "../global.css";
+@import "../components/body.css";
+@import "../components/button.css";
+@import "../components/container.css";
+@import "../components/footer.css";
+@import "../components/header.css";
+@import "../components/home.css";
+@import "../components/img.css";
+@import "../components/logo.css";
+@import "../components/main.css";
+@import "../components/navbar.css";
+@import "../components/option.css";
+@import "../components/popup.css";
+@import "../components/quiz.css";
+@import "../components/result.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.option-list .option {
+  width: 100%;
+  padding: 12px;
+  background: transparent;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  font-size: 17px;
+  margin: 15px 0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.option-list .option:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border-color: rgba(255, 255, 255, 0.1);
+}
+
+.option-list .option.correct {
+  background: #09001d;
+  color: #00a63d;
+  border-color: #00a63d;
+}
+
+.option-list .option.incorrect {
+  background: #09001d;
+  color: #a60045;
+  border-color: #a60045;
+}
+
+.option-list .option.disabled {
+  pointer-events: none;
+}
