@@ -1,6 +1,7 @@
 .main {
   min-height: 100vh;
-  background: url("../ressources/background.jpg") no-repeat;
+  /* background: url("../ressources/background.jpg") no-repeat; */
+  background: #241b2f;
   background-size: cover;
   background-position: center;
   pointer-events: auto;
