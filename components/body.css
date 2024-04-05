@@ -1,7 +1,5 @@
-@media only screen and (max-width: 768px) {
-  body {
-    color: #fff;
-    background: #09001d;
-    overflow: hidden;
-  }
+body {
+  color: #fff;
+  background: #09001d;
+  overflow: hidden;
 }
